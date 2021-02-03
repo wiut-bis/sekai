@@ -6,6 +6,14 @@
 
 **In this repository you can save your progresses in order to help telegram bot intranet get filled up with correct resources. Also this repository might serve you as cloud management. Feel free to pull request, because any type of pulls will be approved as you are trying to help us with material collection.**
 
+### Submit your files in this kind of structure / form:
+```
+└── wt
+    └── 00010023
+        └── teaching week 1
+            └── material here
+```
+
 > Start contributing to make intranet better!
 
 ---
