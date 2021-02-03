@@ -8,10 +8,10 @@
 
 ### Submit your files in this kind of structure / form:
 ```
-└── wt
-    └── 00010023
-        └── teaching week 1
-            └── material here
+ wt
+  └── 00010023
+      └── teaching week 1
+          └── material here
 ```
 
 > Start contributing to make intranet better!
