@@ -1,0 +1,18 @@
+doctype html 
+html 
+    head 
+        title Conditionals in Pug
+    body 
+        h2 My Web Application 
+
+        - let user = {name: 'Don', loggedIn: false, lastLogin: 6}
+        if user.loggedIn
+            p   
+                | Welcome back, 
+                strong #{user.name}
+        else if user.lastLogin < 10
+            p Your last login was #{user.lastLogin} minutes ago
+            p 
+                a(href="/login") Log in
+        else 
+            a(href="/login") Log in

@@ -1,0 +1,15 @@
+doctype html 
+html 
+    head 
+    body
+        input(type="password" name="inpPsw" data-js=`${5 > 2 ? "OK" : "NOT OKAY"}`)
+        input(type="text" disabled=true)
+
+        - const myClasses = ["class1", "class2", "class3"];
+        div.my-div(class = myClasses)
+
+        - const myStyle = {"color":"red", "font-size": "2rem"}
+        div(style=myStyle)
+
+        - const myAttributes = {"src": "myPhoto.png", "alt": "some photo"}
+        img&attributes(myAttributes)

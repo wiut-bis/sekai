@@ -1,0 +1,17 @@
+doctype html 
+html 
+    head 
+        title Case Statements
+    body 
+    // orderStatus => Pending || In_Transit || Completed
+    - let orderStatus = 'In_Transit'
+
+    case orderStatus 
+        when 'Pending'
+            p Your order has been placed and will be sent shortly.
+        when 'In_Transit'
+            p  Your order is on the move - you should receive it soon! 
+        when 'Completed'
+            p Your order has been completed.
+        default 
+            p Sorry! We aren't sure what happened with your order...
