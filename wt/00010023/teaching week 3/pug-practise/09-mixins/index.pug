@@ -1,0 +1,30 @@
+mixin comment(commentData)
+    .comment
+        .date= commentData.date
+        .author= commentData.author
+        .text= commentData.text
+
+doctype html 
+html 
+    head 
+        title Mixins 
+        style.
+            .comment{
+                width: 250px;
+                font-family: sans-serif;
+                padding: 10px;
+                line-height: 1.5;
+                border: 1px solid #555;
+            }
+            .date{
+                font-size: 85%;
+                text-align: right;
+            }
+            .author{
+                font-size: 110%;
+                font-weight: bold;
+            }
+    body 
+        - let obj = {date: '16-04-2021', author: 'dcode', text: 'some text goes here'}
+        + comment(obj)
+            
